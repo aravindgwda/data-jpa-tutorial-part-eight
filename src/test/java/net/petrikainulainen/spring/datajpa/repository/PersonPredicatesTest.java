@@ -14,10 +14,10 @@ public class PersonPredicatesTest {
     private static final String SEARCH_TERM = "Foo";
     private static final String EXPECTED_PREDICATE_STRING = "startsWithIgnoreCase(person.lastName,Foo)";
 
-    @Test
+   /* @Test
     public void lastNameLike() {
         Predicate predicate = PersonPredicates.lastNameIsLike(SEARCH_TERM);
         String predicateAsString = predicate.toString();
         assertEquals(EXPECTED_PREDICATE_STRING, predicateAsString);
-    }
+    }*/
 }

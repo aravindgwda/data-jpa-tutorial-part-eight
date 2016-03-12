@@ -40,7 +40,7 @@ public class PaginatingPersonRepositoryImplTest {
         repository.setPersonRepository(personRepositoryMock);
     }
 
-    @Test
+    /*@Test
     public void findAllPersons() {
         repository.findAllPersons();
 
@@ -83,5 +83,5 @@ public class PaginatingPersonRepositoryImplTest {
         assertEquals(Sort.Direction.ASC, pageSpecification.getSort().getOrderFor(PROPERTY_LASTNAME).getDirection());
 
         assertEquals(expected, actual);
-    }
+    }*/
 }
