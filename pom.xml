@@ -238,14 +238,15 @@
 <dependency>
 	<groupId>org.apache.tomcat</groupId>
 	<artifactId>tomcat-catalina</artifactId>
-	<version>7.0.68</version>
+	<version>8.0.30</version>
  </dependency>
 
  <dependency>
 	<groupId>org.apache.tomcat</groupId>
 	<artifactId>tomcat-util</artifactId>
-	<version>7.0.68</version>
- </dependency>
+	<version>8.0.30</version>
+</dependency>
+
 
 
    <!--  <dependency>
