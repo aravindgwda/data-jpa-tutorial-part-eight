@@ -57,6 +57,12 @@ public class PersonController extends AbstractController {
 
         return personService.count(searchTerm);
     }
+    
+    @RequestMapping(value="/helloCount", method = RequestMethod.GET)
+    @ResponseBody
+    public String  count(@RequestParam String count) { 
+        return "Helloo  " + count;
+    }
 
     /**
      * Processes delete person requests.
