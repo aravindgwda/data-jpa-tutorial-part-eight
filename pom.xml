@@ -234,19 +234,19 @@
       <artifactId>heroku-jdbc</artifactId>
       <version>0.1.1</version>
     </dependency>
-    <dependency>
+   <!--  <dependency>
 	<groupId>org.apache.tomcat</groupId>
 	<artifactId>tomcat-catalina</artifactId>
 	<version>7.0.68</version>
-</dependency>
+ </dependency>
 
-<dependency>
+ <dependency>
 	<groupId>org.apache.tomcat</groupId>
 	<artifactId>tomcat-util</artifactId>
 	<version>7.0.22</version>
-</dependency>
+ </dependency>
 
-<!-- 
+
 <dependency>
 	<groupId>org.apache.geronimo.ext.tomcat</groupId>
 	<artifactId>catalina</artifactId>
