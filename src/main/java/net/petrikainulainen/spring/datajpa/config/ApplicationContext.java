@@ -36,7 +36,7 @@ import java.util.Properties;
 @PropertySource("classpath:application.properties")
 public class ApplicationContext {
 
-    private static final String VIEW_RESOLVER_PREFIX = "/WEB-INF/jsp/";
+    private static final String VIEW_RESOLVER_PREFIX = "WEB-INF/jsp/";
     private static final String VIEW_RESOLVER_SUFFIX = ".jsp";
 
     private static final String PROPERTY_NAME_DATABASE_DRIVER = "db.driver";
