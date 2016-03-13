@@ -60,8 +60,8 @@ public class PersonController extends AbstractController {
     
     @RequestMapping(value="/helloCount", method = RequestMethod.GET)
     @ResponseBody
-    public String  count(@RequestParam String count) { 
-        return "Helloo  " + count;
+    public String  count() { 
+        return "Helloo  " + 333;
     }
 
     /**
@@ -139,7 +139,7 @@ public class PersonController extends AbstractController {
      * @return
      */
     @RequestMapping(value = "/person/create", method = RequestMethod.POST)
-    public String submitCreatePersonForm(@Valid @ModelAttribute(MODEL_ATTIRUTE_PERSON) PersonDTO created, BindingResult bindingResult, RedirectAttributes attributes) {
+    public String submitCreatePersonForm(@Valid @RequestBody PersonDTO created, BindingResult bindingResult, RedirectAttributes attributes) {
         LOGGER.debug("Create person form was submitted with information: " + created);
 
         if (bindingResult.hasErrors()) {
